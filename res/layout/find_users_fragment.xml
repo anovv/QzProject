@@ -1,0 +1,51 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/find_users_ll"
+        android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="vertical">
+	 
+        <LinearLayout
+	        android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal">
+	
+		    <EditText
+		        android:id="@+id/find_users_et"
+		        android:layout_weight="1"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content" />    
+		       
+		    <Button
+		        android:id="@+id/find_users_button"
+		        android:layout_weight="5"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:text="go"/>
+    	
+	    </LinearLayout>       
+                
+	    <ListView
+	        android:id="@android:id/list"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent" >
+	   	</ListView>
+    </LinearLayout>
+    
+    <ProgressBar android:id="@+id/find_users_spinner"
+        style="?android:progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"/>
+
+    
+    <TextView 
+        android:id = "@+id/find_users_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" />	
+        
+</FrameLayout>

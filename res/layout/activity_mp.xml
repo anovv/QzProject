@@ -1,0 +1,111 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/White"
+    android:orientation="vertical">
+	
+	<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical">	
+	    
+	    <ProgressBar
+	        android:id="@+id/pb"
+	        style="?android:attr/progressBarStyleHorizontal"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:indeterminate="false"
+	        android:paddingLeft="3dp"
+	        android:paddingRight="3dp"
+	        android:max="1000"
+	        android:minHeight="0dp"
+	        android:minWidth="0dp"
+	        android:progress="0" />
+    
+	    <TextView
+	        android:id="@+id/tv_m"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:gravity="center"
+	        android:textSize="18dp"
+	        android:text="@string/hello_world" />    
+	    
+	    <TextView
+	        android:id="@+id/countdown_m"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:gravity="center"
+	        android:textSize="18dp"
+	        android:text="" />
+    </LinearLayout>
+    
+	
+	<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal">	
+		
+	    <View
+	        android:layout_weight="1"
+    		android:id="@+id/player_ind"
+            android:layout_width="6dip"
+            android:layout_height="match_parent"
+            android:background="@color/White"/>
+	    
+		<LinearLayout 
+	        android:layout_weight="100"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:orientation="vertical">	
+		    
+		    <Button        
+		        android:id="@+id/b1_m" 
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:textSize="18dp"
+		        android:text=""/>    
+		    
+		    <Button        
+		        android:id="@+id/b2_m" 
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:textSize="18dp"
+		        android:text=""/>    
+		    
+		    <Button        
+		        android:id="@+id/b3_m" 
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:textSize="18dp"
+		        android:text=""/>   
+		    
+		    <Button        
+		        android:id="@+id/b4_m" 
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:textSize="18dp"
+		        android:text=""/>
+		</LinearLayout>
+		
+	    <View
+	        android:layout_weight="1"
+    		android:id="@+id/opp_ind"
+            android:layout_width="6dip"
+            android:layout_height="match_parent"
+            android:background="@color/White"/>
+	    		
+    </LinearLayout>
+    
+    <TextView
+        android:id="@+id/res_m"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="18dp"
+        android:text="" />
+    
+
+</LinearLayout>

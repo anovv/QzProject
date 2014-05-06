@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">QzProject</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_multi_player">MultiPlayerActivity</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_main_menu">MainMenuActivity</string>
+    <string name="title_activity_register_vk">RegisterVKActivity</string>
+    <string name="title_activity_friends">FriendsActivity</string>
+    <string name="title_activity_test">TestActivity</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="title_activity_user">UserActivity</string>
+    <string name="title_activity_cropper">CropperActivity</string>
+    <string name="title_activity_profile">ProfileActivity</string>
+    <string name="title_activity_base">BaseActivity</string>
+    <string name="title_activity_fragment_test">FragmentTestActivity</string>
+    <string name="title_activity_socket_test">SocketTestActivity</string>
+    <string name="title_activity_netty">NettyActivity</string>
+    <string name="title_activity_game">GameActivity</string>
+
+</resources>
